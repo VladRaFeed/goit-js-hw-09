@@ -92,6 +92,7 @@ function timerClear() {
         dataHours.textContent = '00';
         dataMinutes.textContent = '00';
         dataSeconds.textContent = '00';
-    clearBtn.disabled = true;
-    Notiflix.Notify.success("Successful cleaning!")
+        startBtn.disabled = false;
+        clearBtn.disabled = true;
+        Notiflix.Notify.success("Successful cleaning!")
 }
